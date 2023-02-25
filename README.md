@@ -6,7 +6,7 @@ Carrossel é um componente essencial no designe de um site. Ele ajuda a exibir d
 
 Foi feito também `botões de controle`, para que o usuário possa escolher aleatoriamente uma imagem.
 
-## Considerações:
+
     - A construção deste componente evolveu o conhecimento em Angular e também um pouco de HTML e CSS.
 
 
