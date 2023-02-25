@@ -1,1 +1,18 @@
-<p>carrossel works!</p>
+<div 
+    class="item"
+    [style.backgroundImage]="
+        'url(' + imagens[indexImagemAtiva] + ')'
+        "
+    >
+
+    <img 
+        *ngFor="let imagem of imagens"
+        [src]="imagem"
+        alt=""
+        width="1"
+        height="1"
+        style="opacity: 0; position: fixed;"
+    >
+        
+    
+</div>
